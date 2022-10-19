@@ -1,6 +1,6 @@
 
 const form = document.getElementById('form')
-const input = document.querySelector('input-form')
+const input = document.getElementById('input-form')
 const caja = document.getElementById('caja')
 
 let items = JSON.parse(localStorage.getItem('items')) || [];
@@ -75,7 +75,7 @@ arrayDePizza.forEach((pizza) => {
   const createHTML = items =>{
       const html = items.map(item => {
         if(input.value===arrayDePizza.id){
-          return `<h2>Pizza ${arrayDePizza.nombre}</h2><h3> $${arrayDePizza.precio}</h3>`;
+          return  item = `<h2>Pizza ${arrayDePizza.nombre}</h2><h3> $${arrayDePizza.precio}</h3>`;
         }
     else if(input.value === NaN){
       return `Error, ingrese un número`;
