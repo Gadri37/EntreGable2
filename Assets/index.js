@@ -63,11 +63,11 @@ const renderResult = (pizza) => {
   }else{
     resultContainer.innerHTML = `
     <div class="pizza-container">
-            <h2 class="result-title">${arrayDePizza.nombre}</h2>
-            <h3 class="result-price">$${arrayDePizza.precio}</h3>
-        </div>`
+            <h2 class="result-title">${pizza.nombre}</h2>
+            <h3 class="result-price">$${pizza.precio}</h3>
+        </div>`;
   }
-}
+};
 
 const submitSearch = (e) =>{
   e.preventDefault();

@@ -17,7 +17,7 @@
 }
 #result-container{
     color: white;
-    background-color: gray;
+    background-color: white;
     width: 94%;
     height: 100px;
     padding: 3%;
@@ -29,7 +29,7 @@
 }
 .pizza-container{
     color: black;
-    background-color: gray;
+    background-color: #e44949;
     width: 94%;
     height: 100px;
     padding: 3%;
@@ -38,5 +38,6 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    border-radius: 15px;
 }
 
