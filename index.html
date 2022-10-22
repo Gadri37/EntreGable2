@@ -12,17 +12,35 @@
         <div class="container" id="contenedor-buscador">
             <h1>Elegí tu pizza</h1>
             <form action="" id="form">
-                <input type="number" id="input-form" placeholder="Ingresa tu número de orden" >
-                <button>Buscar</button>
-            </form>
+                <div class="search-container" id="caja">
+                    <div class="input-container">
+                    <h2 id="pizzaelegida"></h2>
+                    <h3 id="preciopizza"></h3>
+                    <input type="number" id="input-form" placeholder="Ingresa tu número de orden" >
+                    </div>
+                </div>
+            
+        
+            <button class="form__btn">Buscar</button>
         </div>
-        <div class="container2" id="caja">
-            <h2 id="pizzaelegida"></h2>
-            <h3 id="preciopizza"></h3>
+
+    </form>
+
+    <section id="result-container">
+        <!-- <div class="pizza-container">
+            <h2 class="error-title"> Por favor, ingrese un número para poder buscar su pizza en el menú </h2>
         </div>
+
+        <div class="pizza-container">
+            <h2 class="error-title>">No existe una pizza con el id ingresado</h2>
+        </div>
+
+        <div class="pizza-container">
+            <h2 class="result-title">Nombre</h2>
+            <h3 class="result-price">Precio</h3>
+        </div> -->
+    </section>
     </main>
-    <script src="./assets/utils.js"></script>
-    <script src="./assets/validation.js"></script>
-    <script src="./assets/main.js"></script>
+    <script src="./assets/index.js"></script>
 </body>
 </html>
