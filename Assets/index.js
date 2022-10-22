@@ -45,7 +45,7 @@ const input = document.querySelector(".input-form")
 
 /*Buscar en el array de pizzas una pizza que coincida con el valor dado*/ 
 
-const searchPizza = (value) => arrayDePizza.find(arrayDePizza => arrayDePizza.id === value)
+const searchPizza = (value) => arrayDePizza.find(pizza => pizza.id === value)
 
 const showEmptyError = () =>{
   resultContainer.innerHTML = `

@@ -15,8 +15,20 @@
     flex-direction: column;
     justify-content: center;
 }
-.result-container{
+#result-container{
     color: white;
+    background-color: gray;
+    width: 94%;
+    height: 100px;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pizza-container{
+    color: black;
     background-color: gray;
     width: 94%;
     height: 100px;
