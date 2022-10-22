@@ -82,7 +82,7 @@ const submitSearch = (e) =>{
 };
 
 const init = () => {
-  form.addEventListener("submit", searchPizza)
+  form.addEventListener("submit", submitSearch)
 }
 
 init()
